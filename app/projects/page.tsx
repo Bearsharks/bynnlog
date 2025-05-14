@@ -5,6 +5,7 @@ import { genPageMetadata } from 'app/seo'
 export const metadata = genPageMetadata({ title: 'Projects' })
 
 export default function Projects() {
+  return null
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
