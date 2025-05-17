@@ -101,10 +101,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <SectionContainer>
             <SearchProvider searchConfig={siteMetadata.search as SearchConfig}>
               <Header />
-              <div className="flex sm:space-x-24">
-                <LNB />
-                <main className="mb-auto flex-1">{children}</main>
-              </div>
+              <main className="mb-auto">{children}</main>
             </SearchProvider>
             <Footer />
           </SectionContainer>
